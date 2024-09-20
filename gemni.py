@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 model = 'models/embedding-001'
 
-genai.configure(api_key="AIzaSyAxPATN036V2cet-YpdRXDpOxsPnxdyKRQ")
+genai.configure(api_key="GemniKey")
 
 generation_config = {
   "temperature": 1,
